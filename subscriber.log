@@ -1,0 +1,126 @@
+2026-07-04 16:14:24 [INFO] main: Iniciando subscriber MQTT para casa inteligente
+2026-07-04 16:14:24 [INFO] database: Conexión a PostgreSQL establecida
+2026-07-04 16:14:24 [INFO] subscriber: Conectando a broker.emqx.io:1883...
+2026-07-04 16:14:24 [INFO] subscriber: MQTT: Conectado correctamente
+2026-07-04 16:14:24 [INFO] subscriber:   → Suscrito a: casa/cocina/temperatura
+2026-07-04 16:14:24 [INFO] subscriber:   → Suscrito a: casa/cocina/humedad
+2026-07-04 16:14:24 [INFO] subscriber:   → Suscrito a: casa/cocina/gas
+2026-07-04 16:14:55 [INFO] main: Señal de interrupción recibida
+2026-07-04 16:14:55 [INFO] subscriber: Desconexión limpia
+2026-07-04 16:14:55 [INFO] main: Subscriber detenido correctamente
+2026-07-04 16:14:58 [INFO] main: Iniciando subscriber MQTT para casa inteligente
+2026-07-04 16:14:58 [INFO] database: Conexión a PostgreSQL establecida
+2026-07-04 16:14:58 [INFO] subscriber: Conectando a broker.emqx.io:1883...
+2026-07-04 16:14:58 [INFO] subscriber: MQTT: Conectado correctamente
+2026-07-04 16:14:58 [INFO] subscriber:   → Suscrito a: casa/cocina/temperatura
+2026-07-04 16:14:58 [INFO] subscriber:   → Suscrito a: casa/cocina/humedad
+2026-07-04 16:14:58 [INFO] subscriber:   → Suscrito a: casa/cocina/gas
+2026-07-04 16:14:58 [INFO] subscriber:   → Suscrito a: casa/dormitorio/luz
+2026-07-04 16:19:55 [ERROR] subscriber: Payload inválido en casa/dormitorio/luz: b'{"valor": \'off\'}'
+2026-07-04 16:20:09 [INFO] subscriber: Recibido: dormitorio/luz = 1.0
+2026-07-04 17:20:08 [INFO] main: Señal de interrupción recibida
+2026-07-04 17:20:08 [INFO] subscriber: Desconexión limpia
+2026-07-04 17:20:08 [INFO] main: Subscriber detenido correctamente
+2026-07-04 17:23:48 [INFO] main: Iniciando subscriber MQTT para casa inteligente
+2026-07-04 17:23:48 [INFO] database: Conexión a PostgreSQL establecida
+2026-07-04 17:23:48 [INFO] subscriber: TLS activado
+2026-07-04 17:23:48 [INFO] subscriber: Conectando a oe4f08dc.ala.us-east-1.emqxsl.com:8883...
+2026-07-04 17:23:48 [INFO] subscriber: MQTT: Conectado correctamente
+2026-07-04 17:23:48 [INFO] subscriber:   → Suscrito a: casa/cocina/temperatura
+2026-07-04 17:23:48 [INFO] subscriber:   → Suscrito a: casa/sala/humedad
+2026-07-04 17:23:48 [INFO] subscriber:   → Suscrito a: casa/cocina/gas
+2026-07-04 17:24:22 [INFO] subscriber: Recibido: cocina/temperatura = 23.5
+2026-07-04 17:28:45 [INFO] subscriber: Recibido: cocina/temperatura = 21.5
+2026-07-04 17:55:50 [INFO] subscriber: Recibido: cocina/temperatura = 18.0
+2026-07-04 18:13:07 [INFO] main: Señal de interrupción recibida
+2026-07-04 18:13:07 [INFO] subscriber: Desconexión limpia
+2026-07-04 18:13:07 [INFO] main: Subscriber detenido correctamente
+2026-07-04 18:14:46 [INFO] main: Iniciando subscriber MQTT para casa inteligente
+2026-07-04 18:14:47 [INFO] database: Conexión a PostgreSQL establecida
+2026-07-04 18:14:47 [INFO] subscriber: TLS activado
+2026-07-04 18:14:47 [INFO] subscriber: Conectando a oe4f08dc.ala.us-east-1.emqxsl.com:8883...
+2026-07-04 18:14:47 [INFO] subscriber: MQTT: Conectado correctamente
+2026-07-04 18:14:47 [INFO] subscriber:   → Suscrito a: casa/cocina/temperatura
+2026-07-04 18:14:47 [INFO] subscriber:   → Suscrito a: casa/sala/humedad
+2026-07-04 18:14:47 [INFO] subscriber:   → Suscrito a: casa/cocina/gas
+2026-07-04 18:54:36 [INFO] main: Señal de interrupción recibida
+2026-07-04 18:54:36 [INFO] subscriber: Desconexión limpia
+2026-07-04 18:54:36 [INFO] main: Subscriber detenido correctamente
+2026-07-04 18:54:40 [INFO] main: Iniciando subscriber MQTT para casa inteligente
+2026-07-04 18:54:40 [INFO] database: Conexión a PostgreSQL establecida
+2026-07-04 18:54:40 [INFO] subscriber: TLS activado
+2026-07-04 18:54:40 [INFO] subscriber: Conectando a oe4f08dc.ala.us-east-1.emqxsl.com:8883...
+2026-07-04 18:54:41 [INFO] subscriber: MQTT: Conectado correctamente
+2026-07-04 18:54:41 [INFO] subscriber:   → Suscrito a: casa/cocina/temperatura
+2026-07-04 18:54:41 [INFO] subscriber:   → Suscrito a: casa/sala/humedad
+2026-07-04 18:54:41 [INFO] subscriber:   → Suscrito a: casa/cocina/gas
+2026-07-04 18:55:17 [INFO] subscriber: Recibido: cocina/temperatura = 15.0
+2026-07-04 18:55:33 [INFO] subscriber: Recibido: cocina/temperatura = 16.0
+2026-07-04 20:22:30 [INFO] main: Señal de interrupción recibida
+2026-07-04 20:22:30 [INFO] subscriber: Desconexión limpia
+2026-07-04 20:22:30 [INFO] main: Subscriber detenido correctamente
+2026-07-04 20:22:33 [INFO] main: Iniciando subscriber MQTT para casa inteligente
+2026-07-04 20:22:33 [INFO] database: Conexión a PostgreSQL establecida
+2026-07-04 20:22:33 [INFO] subscriber: TLS activado
+2026-07-04 20:22:33 [INFO] subscriber: Conectando a oe4f08dc.ala.us-east-1.emqxsl.com:8883...
+2026-07-04 20:22:33 [INFO] subscriber: MQTT: Conectado correctamente
+2026-07-04 20:22:33 [INFO] subscriber:   → Suscrito a: casa/cocina/temperatura
+2026-07-04 20:22:33 [INFO] subscriber:   → Suscrito a: casa/cocina/gas
+2026-07-04 20:22:33 [INFO] subscriber:   → Suscrito a: casa/sala/humedad
+2026-07-04 20:24:25 [INFO] main: Señal de interrupción recibida
+2026-07-04 20:24:25 [INFO] subscriber: Desconexión limpia
+2026-07-04 20:24:25 [INFO] main: Subscriber detenido correctamente
+2026-07-04 20:24:27 [INFO] main: Iniciando subscriber MQTT para casa inteligente
+2026-07-04 20:24:27 [INFO] database: Conexión a PostgreSQL establecida
+2026-07-04 20:24:27 [INFO] subscriber: TLS activado
+2026-07-04 20:24:27 [INFO] subscriber: Conectando a oe4f08dc.ala.us-east-1.emqxsl.com:8883...
+2026-07-04 20:24:28 [INFO] subscriber: MQTT: Conectado correctamente
+2026-07-04 20:24:28 [INFO] subscriber:   → Suscrito a: casa/cocina/temperatura
+2026-07-04 20:24:28 [INFO] subscriber:   → Suscrito a: casa/cocina/humedad
+2026-07-04 20:24:28 [INFO] subscriber:   → Suscrito a: casa/cocina/gas
+2026-07-04 20:24:28 [INFO] subscriber:   → Suscrito a: casa/terraza/lluvia
+2026-07-04 20:24:28 [INFO] subscriber:   → Suscrito a: casa/garaje/puerta
+2026-07-04 22:49:41 [INFO] subscriber: Recibido: cocina/gas = 1000.0
+2026-07-04 22:49:59 [INFO] subscriber: Recibido: cocina/gas = 980.0
+2026-07-04 23:01:51 [WARNING] subscriber: Desconexión inesperada (rc=7). Reconectando...
+2026-07-04 23:01:54 [INFO] subscriber: MQTT: Conectado correctamente
+2026-07-04 23:01:54 [INFO] subscriber:   → Suscrito a: casa/cocina/temperatura
+2026-07-04 23:01:54 [INFO] subscriber:   → Suscrito a: casa/cocina/humedad
+2026-07-04 23:01:54 [INFO] subscriber:   → Suscrito a: casa/cocina/gas
+2026-07-04 23:01:54 [INFO] subscriber:   → Suscrito a: casa/terraza/lluvia
+2026-07-04 23:01:54 [INFO] subscriber:   → Suscrito a: casa/garaje/puerta
+2026-07-04 23:06:59 [WARNING] subscriber: Desconexión inesperada (rc=7). Reconectando...
+2026-07-04 23:07:00 [INFO] subscriber: MQTT: Conectado correctamente
+2026-07-04 23:07:00 [INFO] subscriber:   → Suscrito a: casa/cocina/temperatura
+2026-07-04 23:07:00 [INFO] subscriber:   → Suscrito a: casa/cocina/humedad
+2026-07-04 23:07:00 [INFO] subscriber:   → Suscrito a: casa/cocina/gas
+2026-07-04 23:07:00 [INFO] subscriber:   → Suscrito a: casa/terraza/lluvia
+2026-07-04 23:07:00 [INFO] subscriber:   → Suscrito a: casa/garaje/puerta
+2026-07-05 03:10:36 [WARNING] subscriber: Desconexión inesperada (rc=7). Reconectando...
+2026-07-05 03:10:38 [INFO] subscriber: MQTT: Conectado correctamente
+2026-07-05 03:10:38 [INFO] subscriber:   → Suscrito a: casa/cocina/temperatura
+2026-07-05 03:10:38 [INFO] subscriber:   → Suscrito a: casa/cocina/humedad
+2026-07-05 03:10:38 [INFO] subscriber:   → Suscrito a: casa/cocina/gas
+2026-07-05 03:10:38 [INFO] subscriber:   → Suscrito a: casa/terraza/lluvia
+2026-07-05 03:10:38 [INFO] subscriber:   → Suscrito a: casa/garaje/puerta
+2026-07-05 03:11:27 [WARNING] subscriber: Desconexión inesperada (rc=7). Reconectando...
+2026-07-05 03:12:11 [INFO] subscriber: MQTT: Conectado correctamente
+2026-07-05 03:12:11 [INFO] subscriber:   → Suscrito a: casa/cocina/temperatura
+2026-07-05 03:12:11 [INFO] subscriber:   → Suscrito a: casa/cocina/humedad
+2026-07-05 03:12:11 [INFO] subscriber:   → Suscrito a: casa/cocina/gas
+2026-07-05 03:12:11 [INFO] subscriber:   → Suscrito a: casa/terraza/lluvia
+2026-07-05 03:12:11 [INFO] subscriber:   → Suscrito a: casa/garaje/puerta
+2026-07-05 10:11:40 [INFO] main: Señal de interrupción recibida
+2026-07-05 10:11:40 [INFO] subscriber: Desconexión limpia
+2026-07-05 10:11:40 [INFO] main: Subscriber detenido correctamente
+2026-07-05 10:15:21 [INFO] main: Iniciando subscriber MQTT para casa inteligente
+2026-07-05 10:15:22 [INFO] database: Conexión a PostgreSQL establecida
+2026-07-05 10:15:22 [INFO] subscriber: TLS activado
+2026-07-05 10:15:22 [INFO] subscriber: Conectando a oe4f08dc.ala.us-east-1.emqxsl.com:8883...
+2026-07-05 10:15:22 [INFO] subscriber: MQTT: Conectado correctamente
+2026-07-05 10:15:22 [INFO] subscriber:   → Suscrito a: casa/cocina/temperatura
+2026-07-05 10:15:22 [INFO] subscriber:   → Suscrito a: casa/cocina/humedad
+2026-07-05 10:15:22 [INFO] subscriber:   → Suscrito a: casa/cocina/gas
+2026-07-05 10:15:22 [INFO] subscriber:   → Suscrito a: casa/terraza/lluvia
+2026-07-05 10:15:22 [INFO] subscriber:   → Suscrito a: casa/garaje/puerta
+2026-07-05 10:16:34 [INFO] subscriber: Recibido: cocina/temperatura = 18.0
