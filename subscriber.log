@@ -124,3 +124,18 @@
 2026-07-05 10:15:22 [INFO] subscriber:   → Suscrito a: casa/terraza/lluvia
 2026-07-05 10:15:22 [INFO] subscriber:   → Suscrito a: casa/garaje/puerta
 2026-07-05 10:16:34 [INFO] subscriber: Recibido: cocina/temperatura = 18.0
+2026-07-05 13:04:21 [INFO] main: Iniciando subscriber MQTT para casa inteligente
+2026-07-05 13:04:21 [INFO] database: Conexión a PostgreSQL establecida
+2026-07-05 13:04:21 [INFO] subscriber: TLS activado
+2026-07-05 13:04:21 [INFO] subscriber: Conectando a oe4f08dc.ala.us-east-1.emqxsl.com:8883...
+2026-07-05 13:04:22 [INFO] subscriber: MQTT: Conectado correctamente
+2026-07-05 13:04:22 [INFO] subscriber:   → Suscrito a: casa/cocina/temperatura
+2026-07-05 13:04:22 [INFO] subscriber:   → Suscrito a: casa/cocina/humedad
+2026-07-05 13:04:22 [INFO] subscriber:   → Suscrito a: casa/cocina/gas
+2026-07-05 13:04:22 [INFO] subscriber:   → Suscrito a: casa/terraza/lluvia
+2026-07-05 13:04:22 [INFO] subscriber:   → Suscrito a: casa/garaje/puerta
+2026-07-05 13:33:32 [INFO] subscriber: Recibido: cocina/temperatura = 21.0
+2026-07-05 13:40:12 [INFO] subscriber: Recibido: cocina/temperatura = 22.0
+2026-07-05 13:40:22 [INFO] subscriber: Recibido: cocina/temperatura = 23.0
+2026-07-05 13:40:44 [INFO] subscriber: Recibido: cocina/temperatura = 20.0
+2026-07-05 16:02:51 [INFO] subscriber: Recibido: cocina/temperatura = 21.0
