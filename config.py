@@ -16,6 +16,7 @@ class MQTTConfig:
         "casa/cocina/gas",
         "casa/terraza/lluvia",
         "casa/garaje/puerta",
+        "casa/cuarto/luz",
     ]
 
 class DBConfig:
